@@ -1,0 +1,2 @@
+# ChineseSortingDemo
+Ios默认使用utf-8格式编码，所以中文在IOS中默认排序是不可以用的，但IOS也支持使用笔画排序的（采用NSString的localizedCompare，可按笔划排序），但我们希望根据拼音排序，并且如果相同可以往后继续比较。
